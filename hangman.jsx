@@ -42,6 +42,9 @@ let triviaBoard = [{
   q: "What is the Capital of Illinois?",
   a: "Springfield"
 }, {
+  q: "What is the Capital of Indiana?",
+  a: "Indianapolis"
+}, {
   q: "What is the Capital of Iowa?",
   a: "DesMoines"
 }, {
@@ -72,6 +75,9 @@ let triviaBoard = [{
   q: "What is the Capital of Mississippi?",
   a: "Jackson"
 }, {
+  q: "What is the Capital of Missouri?",
+  a: "JeffersonCity"
+}, {
   q: "What is the Capital of Montana?",
   a: "Helena"
 }, {
@@ -80,6 +86,72 @@ let triviaBoard = [{
 }, {
   q: "What is the Capital of Nevada?",
   a: "CarsonCity"
+}, {
+  q: "What is the Capital of New Hampshire?",
+  a: "Concord"
+}, {
+  q: "What is the Capital of New Jersey?",
+  a: "Trenton"
+}, {
+  q: "What is the Capital of New Mexico?",
+  a: "SantaFe"
+}, {
+  q: "What is the Capital of New York?",
+  a: "Albany"
+}, {
+  q: "What is the Capital of North Carolina?",
+  a: "Raleigh"
+}, {
+  q: "What is the Capital of North Dakota?",
+  a: "Bismarck"
+}, {
+  q: "What is the Capital of Ohio?",
+  a: "Columbus"
+}, {
+  q: "What is the Capital of Oklahoma?",
+  a: "OklahomaCity"
+}, {
+  q: "What is the Capital of Oregon?",
+  a: "Salem"
+}, {
+  q: "What is the Capital of Pennsylvania?",
+  a: "Harrisburg"
+}, {
+  q: "What is the Capital of Rhode Island?",
+  a: "Providence"
+}, {
+  q: "What is the Capital of South Carolina?",
+  a: "Columbia"
+}, {
+  q: "What is the Capital of South Dakota?",
+  a: "Pierre"
+}, {
+  q: "What is the Capital of Tennessee?",
+  a: "Nashville"
+}, {
+  q: "What is the Capital of Texas?",
+  a: "Austin"
+}, {
+  q: "What is the Capital of Utah?",
+  a: "SaltLakeCity"
+}, {
+  q: "What is the Capital of Vermont?",
+  a: "Montpelier"
+}, {
+  q: "What is the Capital of Virginia?",
+  a: "Richmond"
+}, {
+  q: "What is the Capital of Washington?",
+  a: "Olympia"
+}, {
+  q: "What is the Capital of West Virginia?",
+  a: "Charleston"
+}, {
+  q: "What is the Capital of Wisconsin?",
+  a: "Madison"
+}, {
+  q: "What is the Capital of Wyoming?",
+  a: "Cheyenne"
 }]
 
 
@@ -126,7 +198,7 @@ function GridCellElement(props) {
     let START_ASCII = 65
     while (_count++ <= props.cells - 1) word = word + '_'
     return ( < svg xmlns = "http://www.w3.org/2000/svg"
-      width = "850"
+      width = "1100"
       height = "100"
       viewBox = "0 0 300 50" > {
         word.split('').map((ele, index) => {
