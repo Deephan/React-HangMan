@@ -1,4 +1,4 @@
-<svg style="border:3px solid SeaGreen;" width="500" height="500" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+<svg style="background-color:beige;border:1px solid black;" width="500" height="500" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
       <circle style="" id="head" cx="100" cy="100" r="15" stroke="black" stroke-width="2" fill="none"></circle>
     </svg>
