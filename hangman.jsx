@@ -1,7 +1,7 @@
 // HANGMAN
 let elems = ["head", "mid", "leftArm", "rightArm", "leftLeg", "rightLeg", "wall", "floor", "ceil", "rope"]
 const delta = [4, 5, 4, 4, 5, 5, 4, 4, 7, 7, 4, 5, 3, 4, 4, 5, 4, 4, 5, 5, 4, 4, 3, 4, 4, 5, 6]
-const NUMBER_OF_TRIES = 10
+const NUMBER_OF_TRIES = 20
 let triviaBoard = [{
   q: "What is the Capital of Alabama?",
   a: "Montgomery"
